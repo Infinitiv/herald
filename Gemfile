@@ -66,3 +66,5 @@ gem 'device'
 gem 'cancancan'
 
 gem 'sidekiq'
+
+gem 'capistrano3-puma'
