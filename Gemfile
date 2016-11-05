@@ -45,4 +45,24 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+#gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'foundation-rails'
+
+gem 'thinking-sphinx'
+
+gem 'will_paginate'
+
+gem 'rmagick'
+
+gem 'slim'
+
+gem 'yaml_db'
+
+gem 'sanitize'
+
+gem 'device'
+
+gem 'cancancan'
+
+gem 'sidekiq'
