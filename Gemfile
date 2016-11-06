@@ -51,6 +51,8 @@ gem 'foundation-rails'
 
 gem 'thinking-sphinx'
 
+gem 'mysql2'
+
 gem 'will_paginate'
 
 gem 'rmagick'
