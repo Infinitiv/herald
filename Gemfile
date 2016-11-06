@@ -63,7 +63,7 @@ gem 'yaml_db'
 
 gem 'sanitize'
 
-gem 'device'
+gem 'devise'
 
 gem 'cancancan'
 
