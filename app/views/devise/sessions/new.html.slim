@@ -1,0 +1,13 @@
+.row
+  .large-4.large-centered.small-12.columns.panel
+    h2 Войти
+
+    = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| 
+      .field
+        = f.label :login, "Имя пользователя"
+        = f.text_field :login, autofocus: true 
+      .field
+        = f.label :password, "Пароль"
+        = f.password_field :password, autocomplete: "off" 
+      .actions
+        = f.submit "Войти", class: 'button small'
